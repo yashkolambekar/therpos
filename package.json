@@ -1,0 +1,28 @@
+{
+  "name": "therpos",
+  "description": "ESC/POS Solution in Javascript",
+  "version": "0.0.2",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "",
+  "repository": {
+    "url" : ""
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "thermal",
+    "thermal printer",
+    "esc/pos",
+    "esc",
+    "pos"
+  ],
+  "author": "yashkolambekar",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
